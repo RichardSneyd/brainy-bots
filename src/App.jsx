@@ -14,7 +14,6 @@ function App() {
             alt="Icon"
             height="60px"
           />
-          BrainyBots
         </a>
         <button
           className="navbar-toggler me-3"
@@ -84,9 +83,9 @@ function App() {
               title="ListenUp"
               imgSrc="img/brainbeats-512x512.png"
               webUrl="https://listenup.brainy-bots.com/">
-                <p>Level up your listening! ListenUp is a completely free listening therapy and auditory training tool. ListenUp is a free alternative to premium tools like the Tomatis Method and the Safe & Sound Protocol.</p>
+                <p>Level up your listening! ListenUp is a completely free listening therapy and auditory training tool, serving as a high quality and universally accessible alternative to premium auditory integration programs such as the Tomatis Method, the Safe & Sound Protocol and similar.</p>
                 <p>
-                We released it as part of our mission to democratise access to high quality sensory integration tools.
+                We released it as part of our mission to democratise access to high quality sensory integration tools for families with neurodiverse memebers. Check it out!
                 </p>
               </AppDisplay>
               </section>
