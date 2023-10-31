@@ -25,7 +25,7 @@ const AppDisplay = ({ title, imgSrc, webUrl, androidUrl, chromeUrl, windowsUrl, 
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <img src={imgSrc} alt="App Display" className="img-fluid rounded" width="auto" />
+                    <img src={imgSrc} alt="App Display" className="img-fluid rounded smaller-on-mobile" width="auto" />
                 </div>
             </div>
         </article>

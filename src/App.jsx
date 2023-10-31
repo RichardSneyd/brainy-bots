@@ -30,29 +30,24 @@ function App() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#container">
+              <a className="nav-link" href="#">
                 ListenUp<sup>tm</sup> <span className="sr-only">(current)</span>
               </a>
             </li>
             <li className="nav-item">
               <a
                 className="nav-link"
-                id="whoAreBrainyBots"
-                href="#"
-                data-bs-toggle="modal"
-                data-bs-target="#infoModal"
+                href="#aboutBrainyBots"
               >
-                Our Mission
+                About BrainyBots
               </a>
             </li>
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="#"
-                data-bs-toggle="modal"
-                data-bs-target="#theScienceModal"
+                href="#ourMission"
               >
-                About BrainyBots
+                Our Mission
               </a>
             </li>
           </ul>
@@ -84,6 +79,7 @@ function App() {
               <h1 className="mb-0">BrainyBots Apps</h1>
               {/* <p>Your one-stop destination for intelligent apps!</p> */}
             </header>
+            <section className="area">
             <AppDisplay
               title="ListenUp"
               imgSrc="img/brainbeats-512x512.png"
@@ -93,12 +89,25 @@ function App() {
                 We released it as part of our mission to democratise access to high quality sensory integration tools.
                 </p>
               </AppDisplay>
-            <section className="area">
-              <header className="text-center">
-                <h1 className="mb-0">Our Mission</h1>
-                
-              </header>
-              <p>Yo...</p>
+              </section>
+              <section className="area" id="aboutBrainyBots">
+                <h2 className="mb-0">About BrainyBots</h2>
+                <p>
+                Introducing BrainyBots: a one-man studio on a mission to revolutionize the world of neurodevelopmental interventions through cutting-edge apps and games. Founded by Richard Sneyd, an experienced software developer with a background in educational game development, BrainyBots aims to democratize access to quality intervention tools. 
+                </p>
+                <p>
+                This initiative was initially inspired by the challenges faced in finding accessible, effective resources for Richard&apos;s son, who has Autism Spectrum Disorder (ASD), Sensory Processing Disorder (SPD), Auditory Processing Disorder, and other developmental challenges. Due to the lack of quality services and tools, especially in remote areas, Richard leveraged his expertise to develop these much-needed resources and decided to share them freely with the world.
+                </p>
+
+            </section>
+            <section className="area" id="ourMission">
+                <h2 className="mb-0">Our Mission</h2>
+                <p>
+                At BrainyBots, we believe that everyone should have access to specialized tools that can significantly improve their quality of life, irrespective of their geographical location or financial status. Our mission is to develop intuitive and research-based apps and games aimed at auditory and sensorimotor integration, neurosensory balancing, and cognitive development. We pull insights from the latest scientific research on neuroplasticity, auditory processing, and sensorimotor integration to create tools that are not only effective but also versatile.
+                </p>
+                <p>
+                From apps that help with auditory integration to games that foster brain balance through neurosensory exercises, BrainyBots offers a wide range of digital tools. These are designed not only for individuals with specific developmental challenges but also for those who wish to optimize their neurological functions. Whether you&apos;re a parent seeking interventions for your child, a therapist looking for supplementary tools, or an adult aiming to enhance your sensory faculties, BrainyBots has something for you.
+                </p>
             </section>
           </div>
         </div>
