@@ -64,11 +64,11 @@
 }
 
 .faded {
-  opacity: 0.8;
+  opacity: 0.96;
 }
 
 .slightly-faded {
-  opacity: 0.93;
+  opacity: 0.99;
 }
 
 .faded:hover,

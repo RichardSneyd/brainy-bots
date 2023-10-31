@@ -10,7 +10,7 @@ function App() {
         <a className="navbar-brand transucent" href="#">
           <img
             className="inline-icon-2 rounded ms-2 me-2"
-            src="img/happy-robot-pink-brain.png"
+            src="img/icons/happy-robot-pink-brain-96.png"
             alt="Icon"
             height="60px"
           />
@@ -52,7 +52,7 @@ function App() {
                 data-bs-toggle="modal"
                 data-bs-target="#theScienceModal"
               >
-                Who We Are
+                About BrainyBots
               </a>
             </li>
           </ul>
@@ -66,7 +66,7 @@ function App() {
               >
                 <img
                   className="drop-shadow buy-coffee"
-                  src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+                  src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png"
                   alt="Buy Me A Coffee"
                   height={50}
                   // style={{, }}
@@ -86,7 +86,7 @@ function App() {
             </header>
             <AppDisplay
               title="ListenUp"
-              imgSrc="./img/brainbeats-512x512.png"
+              imgSrc="img/brainbeats-512x512.png"
               webUrl="https://listenup.brainy-bots.com/">
                 <p>Level up your listening! ListenUp is a completely free listening therapy and auditory training tool. ListenUp is a free alternative to premium tools like the Tomatis Method and the Safe & Sound Protocol.</p>
                 <p>
@@ -117,17 +117,17 @@ function App() {
               >
                 <img
                   className="drop-shadow slightly-faded"
-                  src="img/happy-robot-pink-brain.png"
-                  style={{ maxHeight: "100px" }}
+                  src="img/icons/happy-robot-pink-brain-152.png"
+                  style={{ maxHeight: "130px" }}
                 />
               </a>
             </div>
             {/* <!-- Support Buttons --> */}
             <div className="col-md-3 mt-2">
               <h5>
-                Let&aposs keep ListenUp<sup>tm</sup> free.{" "}
+                Everything We Build is Free
               </h5>
-              <p>Can you support its maintenance?</p>
+              <p>Can you support our mission?</p>
               {/* <!-- Patreon --> */}
               <a
                 title="Support Me on Patreon"
@@ -154,7 +154,7 @@ function App() {
             {/* <!-- Social Media Icons --> */}
             <div className="col-md-4 mt-2">
               <h5>
-                Please Share ListenUp<sup>tm</sup>:
+                Please Share BrainyBots:
               </h5>
               {/* <!-- Facebook --> */}
               <a
