@@ -125,3 +125,10 @@ button.small {
   margin-top: -100px;  /* Negative height of your sticky navbar */
   visibility: hidden;
 }
+
+@media (min-width: 992px) {
+  #bmc-wbtn {
+      display: none;
+      visibility: hidden;
+  }
+}

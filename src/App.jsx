@@ -79,9 +79,14 @@ function App() {
             <li className="nav-item">
               <a
                 className="faded"
-                href="https://www.buymeacoffee.com/richardsneyd"
-                target="_blank"
-                rel="noreferrer"
+                href="#"
+                // target="_blank"
+                // rel="noreferrer"
+                onClick={() => {
+                  // Assuming the function to open the widget is named `bmcfw`.
+                    document.getElementById("bmc-wbtn").click();
+                  
+                }}
               >
                 <img
                   className="drop-shadow buy-coffee"
@@ -110,14 +115,14 @@ function App() {
                 webUrl="https://listenup.brainy-bots.com/"
               >
                 <p>
-                  Level up your listening! ListenUp is a completely free
-                  listening therapy and auditory training tool, serving as a
+                  Level up your listening! ListenUp<sup>tm</sup> is a <strong>completely free </strong> 
+                   listening therapy and auditory training tool, serving as a
                   high quality and universally accessible alternative to premium
                   auditory integration programs such as the Tomatis Method, the
                   Safe & Sound Protocol and similar.
                 </p>
                 <p>
-                  We released it as part of our mission to democratise access to
+                  We released ListenUp<sup>tm</sup> as part of our mission to democratise access to
                   high quality sensory integration tools for families with
                   neurodiverse memebers (like ours). Check it out!
                 </p>
@@ -129,13 +134,13 @@ function App() {
                 BrainyBots is a one-man studio on a mission to disrupt the world
                 of neurodevelopmental interventions through the provision of
                 entirely free, cutting-edge apps and games. Founded by Richard
-                Sneyd, an experienced software developer with a background in
+                Sneyd, an educator and seasoned software engineer with a background in
                 educational game development, BrainyBots aims to democratize
                 access to quality intervention tools.
               </p>
               <p>
                 This initiative was first inspired by the challenges faced by
-                Richard&amp;s family in finding accessible, effective resources
+                Richard&apos;s family in finding accessible, effective resources
                 for their son, who has Autism Spectrum Disorder (ASD), Sensory
                 Processing Disorder (SPD), Auditory Processing Disorder, and
                 other developmental challenges. Due to the lack of accessible
