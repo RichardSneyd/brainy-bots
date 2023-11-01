@@ -117,3 +117,11 @@ button.small {
   padding-bottom: 0.4em;
   padding-top: 0.4em;
 }
+
+:target::before {
+  content: "";
+  display: block;
+  height: 100px;  /* Height of your sticky navbar */
+  margin-top: -100px;  /* Negative height of your sticky navbar */
+  visibility: hidden;
+}

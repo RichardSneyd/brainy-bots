@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 const AppDisplay = ({ title, imgSrc, webUrl, androidUrl, chromeUrl, windowsUrl, children }) => {
     return (
         <article className="py-5">
-            <hr />
-            <br />
+            {/* <hr />
+            <br /> */}
             <div className="row">
                 <div className="col-md-6">
-                    <h2>{title}<sup>tm</sup></h2>
+                    <h2 className="mb-2">{title}<sup>tm</sup></h2>
                    {children}
                     <div className='d-flex '>
                         {webUrl && <a href={webUrl} className="btn btn-outline-primary mr-2 btn-lg" target='_blank' rel='noopener noreferrer'>
