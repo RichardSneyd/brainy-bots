@@ -39,7 +39,7 @@ function App() {
             src="img/icons/happy-robot-pink-brain-96.png"
             alt="Icon"
             height="60px"
-          />
+          />BrainyBots<sup>tm</sup>
         </a>
         <button
           className="navbar-toggler me-3"
@@ -61,7 +61,7 @@ function App() {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#aboutBrainyBots">
-                About BrainyBots
+                About BrainyBots<sup>tm</sup>
               </a>
             </li>
             <li className="nav-item">
@@ -129,7 +129,7 @@ function App() {
               </AppDisplay>
             </section>
             <section className="area" id="aboutBrainyBots">
-              <h2 className="mb-02">About BrainyBots</h2>
+              <h2 className="mb-02">About BrainyBots<sup>tm</sup></h2>
               <p>
                 BrainyBots is a one-man studio on a mission to disrupt the world
                 of neurodevelopmental interventions through the provision of
