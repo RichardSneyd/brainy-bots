@@ -34,7 +34,6 @@ const AppDisplay = ({ title, imgSrc, webUrl, androidUrl, chromeUrl, windowsUrl, 
 
 AppDisplay.propTypes = {
     title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
     imgSrc: PropTypes.string.isRequired,
     webUrl: PropTypes.any,
     androidUrl: PropTypes.any,
