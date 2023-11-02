@@ -56,7 +56,7 @@ function App() {
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
               <a className="nav-link" href="#listenUp">
-                ListenUp<sup>tm</sup> <span className="sr-only">(current)</span>
+                <em>ListenUp</em><sup>tm</sup> <span className="sr-only">(current)</span>
               </a>
             </li>
             <li className="nav-item">
@@ -109,20 +109,20 @@ function App() {
               {/* <p>Your one-stop destination for intelligent apps!</p> */}
             </header>
             <section className="area" id="listenUp">
-              <AppDisplay
-                title="ListenUp"
+              <AppDisplay 
                 imgSrc="img/brainbeats-512x512.png"
                 webUrl="https://listenup.brainy-bots.com/"
               >
+                <h2 className="mb-2"><em>ListenUp</em><sup>tm</sup></h2>
                 <p>
-                  Level up your listening! ListenUp<sup>tm</sup> is a <strong>completely free </strong> 
+                  Level up your listening! <em>ListenUp</em><sup>tm</sup> is a <strong>completely free </strong> 
                    listening therapy and auditory training tool, serving as a
                   high quality and universally accessible alternative to premium
                   auditory integration programs such as the Tomatis Method, the
                   Safe & Sound Protocol and similar.
                 </p>
                 <p>
-                  We released ListenUp<sup>tm</sup> as part of our mission to democratise access to
+                  We released <em>ListenUp</em><sup>tm</sup> as part of our mission to democratise access to
                   high quality sensory integration tools for families with
                   neurodiverse memebers (like ours). Check it out!
                 </p>
