@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>BrainyBots - Free Therapeutic Apps & Games</title>
+        <title>BrainyBots - Free Therapeutic Intervention Apps & Games</title>
         <meta
           name="description"
           content="BrainyBots is on a mission to democratize access to high-quality, research-based neurodevelopmental interventions. Explore our free apps and games today."
@@ -20,7 +20,7 @@ function App() {
         <meta name="author" content="Richard Sneyd" />
         <meta
           property="og:title"
-          content="BrainyBots - Free Therapeutic Apps & Games"
+          content="BrainyBots - Free Therapeutic Intervention Apps & Games"
         />
         <meta
           property="og:description"
