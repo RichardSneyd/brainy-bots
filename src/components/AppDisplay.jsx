@@ -9,17 +9,17 @@ const AppDisplay = ({imgSrc, webUrl, androidUrl, chromeUrl, windowsUrl, children
                 <div className="col-md-6">
                    {children}
                     <div className='d-flex'>
-                        {webUrl && <a href={webUrl} className="btn btn-outline-primary mr-2 btn-lg" target='_blank' rel='noopener noreferrer'>
+                        {webUrl && <a href={webUrl} className="btn btn-primary mr-2 btn-lg" target='_blank' rel='noopener noreferrer'>
                             <i className="fa fa-globe"></i> Web
                         </a>}
-                        {androidUrl && <a href={androidUrl} className="btn btn-outline-success mr-2 btn-lg" target='_blank' rel='noopener noreferrer'>
+                        {androidUrl && <a href={androidUrl} className="btn btn-info mr-2 btn-lg" target='_blank' rel='noopener noreferrer'>
                             <i className="fa fa-android"></i> Android
                         </a>}
-                        {chromeUrl && <a href={chromeUrl} className="btn btn-outline-dark mr-2 btn-lg" target='_blank' rel='noopener noreferrer'>
-                            <i className="fa fa-chrome"></i> Chrome
-                        </a>}
-                        {windowsUrl && <a href={windowsUrl} className="btn btn-outline-info btn-lg" target='_blank' rel='noopener noreferrer'>
+                        {windowsUrl && <a href={windowsUrl} className="btn btn-dark btn-lg" target='_blank' rel='noopener noreferrer'>
                             <i className="fa fa-windows"></i> Windows
+                        </a>}
+                        {chromeUrl && <a href={chromeUrl} className="btn btn-dark mr-2 btn-lg" target='_blank' rel='noopener noreferrer'>
+                            <i className="fa fa-chrome"></i> Chrome
                         </a>}
                     </div>
                 </div>

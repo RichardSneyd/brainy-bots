@@ -45,6 +45,7 @@ const Home = ()=> {
             <AppDisplay 
               imgSrc="img/brainbeats-512x512.png"
               webUrl="https://listenup.brainy-bots.com/"
+              androidUrl="https://play.google.com/store/apps/details?id=com.brainy_bots.listenup.twa"
             >
               <h2 className="mb-2"><em>ListenUp</em><sup>tm</sup></h2>
               <p>
