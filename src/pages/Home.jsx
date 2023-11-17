@@ -8,31 +8,6 @@ import Privacy from "./Privacy";
 const Home = ()=> {
  return (
     <>
-    <Helmet>
-      <title>BrainyBots - Free Therapeutic Intervention Apps & Games</title>
-      <meta
-        name="description"
-        content="BrainyBots is on a mission to democratize access to high-quality, research-based neurodevelopmental interventions. Explore our free apps and games today."
-      />
-      <meta
-        name="keywords"
-        content="BrainyBots, auditory integration, free auditory integraiton, free listening therapy, listening skills, auditory training, therapeutic apps, sensory integration, neurodiverse, free, educational games, autism, ASD, SPD, language acquisition, neuroplasticity, auditory processing, sensorimotor integration, sensory integration"
-      />
-      <meta name="author" content="Richard Sneyd" />
-      <meta
-        property="og:title"
-        content="BrainyBots - Free Therapeutic Intervention Apps & Games"
-      />
-      <meta
-        property="og:description"
-        content="BrainyBots is on a mission to democratize access to high-quality, research-based neurodevelopmental interventions. Explore our free apps and games today."
-      />
-      <meta
-        property="og:image"
-        content="img/icons/happy-robot-pink-brain-152.png"
-      />
-      <meta property="og:url" content="https://brainy-bots.com" />
-    </Helmet>
    <NavBar />
     <div className="container white-bg mt-5 mb-5" id="container">
       <div className="row justify-content-center">
